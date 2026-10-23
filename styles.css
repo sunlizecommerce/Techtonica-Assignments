@@ -1,5 +1,5 @@
 body {
-  background-color: #fcf8f2;
+  background-color: #f7f1e8;
 }
 
 .main-title {
@@ -13,6 +13,7 @@ h1 {
   font-style: normal;
 }
 
+/* Heading colors */
 h1{
     color: #ef7f35; /* Bright gold/yellow */
 }
@@ -23,6 +24,14 @@ p {
   font-style: normal;
   font-size: 25px;
 }
+
+/* Words from ingredients - explainations */
+li {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem; /* Adjust this value (e.g., 1.2rem or 18px) to make it as big as you want */
+  font-weight: 500;  /* Adjust weight if you want it bolder or lighter */
+}
+
 
 /* Adjustments on the left column */
 .left {
@@ -43,7 +52,7 @@ p {
   font-size: 0.8rem; 
   font-color: #6a2121 /* Burgundy */
   opacity: 0.8;      
-  margin-top: 5px; 
+  margin-top: 3px; 
   
 }
 
