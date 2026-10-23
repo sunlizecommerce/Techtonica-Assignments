@@ -25,6 +25,8 @@ p {
   font-size: 25px;
 }
 
+
+
 /*Ingredients and instructions headings */
 h3 {
   font-family: "Poppins", sans-serif;
@@ -57,6 +59,7 @@ li {
   width: 600px;
   float: right;
   margin-left: 30px;
+  color: #6a2121; /* Right side go burgundy */
 }
 
 .photo-source {
