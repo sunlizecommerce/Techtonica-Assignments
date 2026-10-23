@@ -11,3 +11,13 @@ h1{
   font-weight: 550;
   font-style: normal;
 }
+
+p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.left {
+  width: 600px;
+  float: left;
+}
