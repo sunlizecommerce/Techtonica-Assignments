@@ -77,8 +77,12 @@ li {
     line-height: 1.6;                  
 }
 
-/* Keeps your instruction step headings uniform */
+/* Keeps your instruction right step headings uniform */
 .recipe-instructions ol li h3 {
     color: #531f21;              
     font-family: 'Poppins', sans-serif;
 }
+
+left.column.image-and-ingredients ul li {
+    line-height: 50px; 
+    margin-bottom: 6px;
