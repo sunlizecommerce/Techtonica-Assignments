@@ -4,20 +4,30 @@ body {
 
 .main-title {
   font-family: "Bowlby One SC", sans-serif;
-  font-size: 4rem; 
+  font-size: 5rem; 
 }
-h1{
+
+h1 {
   font-family: "Bowlby One SC", sans-serif;
   font-weight: 550;
   font-style: normal;
 }
 
-p{
+p {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
+
+/* 左侧栏：限制 600px 宽，并向左浮动 */
 .left {
   width: 600px;
   float: left;
+}
+
+/* 右侧栏：限制 600px 宽，向左浮动，并留出 30px 的间距防止贴太紧 */
+.right {
+  width: 600px;
+  float: right;
+  margin-left: 30px;
 }
