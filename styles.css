@@ -39,6 +39,10 @@ li {
   float: left;
 }
 
+.external-links {
+  margin-top: 400px; 
+}
+
 /* Adjustments on the right column */
 .right {
   width: 600px;
