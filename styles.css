@@ -9,23 +9,28 @@ body {
 
 h1 {
   font-family: "Bowlby One SC", sans-serif;
-  font-weight: 550;
+  font-weight: 600;
   font-style: normal;
+}
+
+h1{
+    color: #ef7f35; /* Bright gold/yellow */
 }
 
 p {
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
+  font-size: 25px;
 }
 
-/* 左侧栏：限制 600px 宽，并向左浮动 */
+/* Adjustments on the left column */
 .left {
   width: 600px;
   float: left;
 }
 
-/* 右侧栏：限制 600px 宽，向左浮动，并留出 30px 的间距防止贴太紧 */
+/* Adjustments on the right column */
 .right {
   width: 600px;
   float: right;
