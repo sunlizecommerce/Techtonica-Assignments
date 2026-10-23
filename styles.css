@@ -38,8 +38,8 @@ h3 {
 /* Words from ingredients - explainations */
 li {
   font-family: "Poppins", sans-serif;
-  font-size: 1.1rem; /* Adjust this value (e.g., 1.2rem or 18px) to make it as big as you want */
-  font-weight: 500;  /* Adjust weight if you want it bolder or lighter */
+  font-size: 1.1rem; 
+  font-weight: 500;  
 }
 
 
