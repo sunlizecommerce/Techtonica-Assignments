@@ -58,6 +58,10 @@ li {
   margin-left: 30px;
 }
 
+.photo-source {
+  font-size: 0.85rem; 
+  color: #666;        
+
 /* Photo source styling */
 
 .photo-source {
@@ -68,21 +72,3 @@ li {
   
 }
 
-/* All list items and description text inside instructions */
-.recipe-instructions ol li, 
-.recipe-instructions ol p {
-    font-family: 'Poppins', sans-serif; 
-    font-size: 16px;                    
-    color: #6b2d2f;                     
-    line-height: 1.6;                  
-}
-
-/* Keeps your instruction right step headings uniform */
-.recipe-instructions ol li h3 {
-    color: #531f21;              
-    font-family: 'Poppins', sans-serif;
-}
-
-left.column.image-and-ingredients ul li {
-    line-height: 50px; 
-    margin-bottom: 6px;
