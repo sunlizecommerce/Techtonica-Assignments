@@ -1,0 +1,78 @@
+body {
+  background-color: #f7f1e8;
+}
+
+.main-title {
+  font-family: "Bowlby One SC", sans-serif;
+  font-size: 5rem; 
+}
+
+h1 {
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Heading colors */
+h1{
+    color: #ef7f35; /* Bright gold/yellow */
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25px;
+}
+
+
+
+/*Ingredients and instructions headings */
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight:300;
+  font-style: normal;
+  font-size: 1.7rem;
+}
+
+/* Words from ingredients - explainations */
+li {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem; 
+  font-weight: 500;  
+}
+
+
+/* Adjustments on the left column */
+.left {
+  width: 600px;
+  float: left;
+}
+
+/* Adjustments on padding for the external links section */
+.external-links {
+  margin-top: 2050px; 
+}
+
+/* Adjustments on the right column */
+.right {
+  width: 600px;
+  float: right;
+  margin-left: 30px;
+  color: #6a2121; /* Right side burgundy */
+}
+
+.photo-source {
+  font-size: 0.85rem; 
+  color: #666;        
+
+/* Photo source styling */
+
+.photo-source {
+  font-size: 0.8rem; 
+  font-color: #6a2121 /* Burgundy */
+  opacity: 0.8;      
+  margin-top: 3px; 
+  
+}
+
