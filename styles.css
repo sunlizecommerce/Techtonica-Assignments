@@ -43,10 +43,10 @@ li {
 }
 
 
-/* Adjustments on the left column, not going to run now */
+/* Adjustments on the left column */
 .left {
- /* width: 600px; */
-  /* float: left; */
+  width: 600px;
+  float: left;
 }
 
 /* Adjustments on padding for the external links section */
