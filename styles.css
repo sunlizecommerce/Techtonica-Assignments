@@ -8,7 +8,17 @@ body {
 }
 
 .header-image {
-  width: 90%;
+  width: 100%;
+
+  mask-image:linear-gradient(
+    to bottom,
+    black 10%,
+    transparent 100%
+  );
+}
+
+.introduction {
+  margin-top: -180px;
 }
 
 h1 {
