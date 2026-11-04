@@ -8,6 +8,6 @@ title.textContent = "Slap Yo' Bay-Beh Seafood Boil Recipe";
 const button = document.querySelector("#chinese-btn");
 // Add eventListener 
 button.addEventListener("click", function() {
-    console.log("Chinese button clicked!");
+    title.textContent = "一口入魂！卡津海鲜大咖";
 });
 // Print the button click and change it to Chinese 
