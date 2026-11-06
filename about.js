@@ -1,14 +1,19 @@
 // Find the recipe form
 const recipeForm = document.querySelector("#recipe-form");
-
-//if statement run if this form exists  
+const submittedRecipes = document.querySelector("#submitted-recipes");
+// Run only if the form exists
 if (recipeForm) {
-// Listen for form submission 
- recipeForm.addEventListener("submit", function(event) {
-    // No default refreshing 
-    event.preventDefault();
-//print "Recipe submitted"
-console.log("Recipe submitted!");
+
+    // Listen for form submission
+    recipeForm.addEventListener("submit", function(event) {
+
+        // Prevent the page from refreshing
+        event.preventDefault();
+         // Get the recipe name entered by the user
+        const recipeName = document.querySelector("#recipe-name").value;
+        submittedRecipes.textContent = recipeName;
+        // Show a popup message
+        alert("Recipe submitted successfully! 🎉");
 
     });
 }
