@@ -20,6 +20,3 @@ buttonEnglish.addEventListener("click", function(){
     title.textContent = "Slap Yo' Bay-Beh Seafood Boil Recipe";
 });
 
-
-
-// Print the button click and change it to Chinese 
