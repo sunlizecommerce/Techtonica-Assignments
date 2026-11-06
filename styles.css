@@ -3,10 +3,11 @@ body {
 }
 
 .main-title {
-  font-family: "Bowlby One SC", sans-serif;
-  font-size: 4rem; 
+    font-family: "Bowlby One SC", sans-serif;
+    font-size: 3rem;
+    color: #ef7f35;
+    white-space: nowrap; /* Same Line nowrap */
 }
-
 /* This is the header image customs */
 
 .header-image {
