@@ -28,21 +28,31 @@
     
     <div>
         <!-- Section for sharing recipes -->
-
+    <section class="recipe-sharing"></section>
 
         <!-- Add a title: "Share Your Recipe" -->
-
+        <h2>Share Your Recipe!</h2>
         <!-- Create a form -->
-
+            <form id="recipe-form"></form>
         <!-- Add an input for the user's name -->
-
+            <label for="user-name">Your Name:</label>
+            <input type="text" id="user-name" name="user-name">
         <!-- Recipe name -->
+             <label for="recipe-name">Recipe Name:</label>
+            <input type="text" id="recipe-name" name="recipe-name">
 
         <!-- Add a text area for the recipe ideas -->
+            <label for="recipe-instructions">Your Recipe:</label>
+            <textarea id="recipe-instructions" name="recipe-instructions" rows="5"></textarea>
 
         <!-- Submit button here~ -->
+            <button type="submit">Share My Recipe</button>
 
-        <!-- Create an empty area to display submitted recipes -->
+            </form>
+
+            <!-- Create an empty area to display submitted recipes -->
+            <div id="submitted-recipes"></div>
+            </section>
     </div>
 
    </section>
