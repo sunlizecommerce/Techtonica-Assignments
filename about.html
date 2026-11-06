@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <!-- Bootstrap CSS switching around see if that's gonna work-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+
+    <!-- My Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- JavaScript for About page -->
+    <script src="about.js" defer></script>
+</head>
+
+<body style="background-color: #f7f1e8;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-top: 50px; padding-bottom: 50px;">
+     <div class="container-fluid justify-content-start gap-12">   
+         <a class="navbar-brand" href="index.html">My Seafood Boil Recipe</a>
+         <a class="nav-link" href="resources.html">More Similar Recipes</a>
+         <a class="nav-link" href="videos.html">Watch How It's Made</a>
+         <a class="nav-link" href="about.html">About</a>
+     </div>
+    </nav>
+
+    <div class="about-section" style="padding: 40px; text-align: center;">
+
+        <h3 style="margin-bottom: 40px;">
+            About Me </h3>
+        <p>Welcome to Yiming's Seafood Boil Recipe Page! <br>
+         Thank you for giving me the opportunity to share my favorite recipe!🧡 </p>
+
+    </div>
+    
+    <div>
+        <!-- Section for sharing recipes -->
+    
+    <section class="recipe-sharing">
+
+        <!-- Add a title: "Share Your Recipe" -->
+        <h2>Share Your Recipe!</h2>
+
+         <!-- Create a form -->
+         <form id="recipe-form">
+
+        <!-- Add an input for the user's name -->
+        <label for="user-name">Your Name:</label>
+        <input type="text" id="user-name" name="user-name">
+
+        <!-- Recipe name -->
+        <label for="recipe-name">Recipe Name:</label>
+        <input type="text" id="recipe-name" name="recipe-name">
+
+        <!-- Add a text area for the recipe ideas -->
+        <label for="recipe-instructions">Your Recipe:</label>
+        <textarea id="recipe-instructions" name="recipe-instructions" rows="5"></textarea>
+
+        <!-- Submit button here~ -->
+        <button type="submit">Share My Recipe</button>
+
+        </form>
+
+    
+
+<!-- Display submitted recipes here -->
+<div id="submitted-recipes"></div>
+
+</section>
+</div>
+</body>
+</html>
