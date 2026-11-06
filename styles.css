@@ -115,7 +115,16 @@ li {
     font-weight: 400;
 }
 
-/* Recipe sharing section */
+/* Recipe sharing section 
+.recipe-sharing {
+    background-color: white;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}*/
+
 .recipe-sharing {
     background-color: white;
     max-width: 600px;
