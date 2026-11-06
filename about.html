@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport " content="width=device-width, initial-scale=1.0">
     <title>More Similar Recipes</title>
+    <link rel="stylesheet" href="style.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
 </head>
@@ -28,33 +29,36 @@
     
     <div>
         <!-- Section for sharing recipes -->
-    <section class="recipe-sharing"></section>
+    
+    <section class="recipe-sharing">
 
         <!-- Add a title: "Share Your Recipe" -->
         <h2>Share Your Recipe!</h2>
-        <!-- Create a form -->
-            <form id="recipe-form"></form>
+
+         <!-- Create a form -->
+         <form id="recipe-form">
+
         <!-- Add an input for the user's name -->
-            <label for="user-name">Your Name:</label>
-            <input type="text" id="user-name" name="user-name">
+        <label for="user-name">Your Name:</label>
+        <input type="text" id="user-name" name="user-name">
+
         <!-- Recipe name -->
-             <label for="recipe-name">Recipe Name:</label>
-            <input type="text" id="recipe-name" name="recipe-name">
+        <label for="recipe-name">Recipe Name:</label>
+        <input type="text" id="recipe-name" name="recipe-name">
 
         <!-- Add a text area for the recipe ideas -->
-            <label for="recipe-instructions">Your Recipe:</label>
-            <textarea id="recipe-instructions" name="recipe-instructions" rows="5"></textarea>
+        <label for="recipe-instructions">Your Recipe:</label>
+        <textarea id="recipe-instructions" name="recipe-instructions" rows="5"></textarea>
 
         <!-- Submit button here~ -->
-            <button type="submit">Share My Recipe</button>
+        <button type="submit">Share My Recipe</button>
 
-            </form>
-
-            <!-- Create an empty area to display submitted recipes -->
-            <div id="submitted-recipes"></div>
-            </section>
+    </form>
     </div>
+    
+    <!-- Create an empty area to display submitted recipes -->
+    <div id="submitted-recipes"></div>
 
-   </section>
+</section>
 </body>
 </html>

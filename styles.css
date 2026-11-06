@@ -108,10 +108,16 @@ li {
   
 }
 
+/* This is for About page centeralization" */
+.recipe-sharing form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
 
-/* resource page 
-
-/* resource page, "other similar recipes to try" add more margin */
-.resources-title {
-    margin-bottom: 40px;
+.recipe-sharing input,
+.recipe-sharing textarea {
+    width: 100%;
+    max-width: 400px;
 }
