@@ -73,7 +73,25 @@ li {
 }
 
 /*Language buttons */
-/*Language switch buttons*/
+.language-switcher {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.language-switcher button {
+    background-color: #f7f1e8;
+    color: #ef7f35;
+    border: 2px solid #ef7f35;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    /* this cursor pointer will turn into hand to click! */
+}
+
+.language-switcher button:hover {
+    background-color: #d96820;
+}
 /*Hover*/
 
 /*Ingredients box border */
