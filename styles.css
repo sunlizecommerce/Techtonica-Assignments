@@ -179,3 +179,13 @@ li {
     text-decoration: line-through;
     color: gray;
 }
+
+/* only use this when screen is lesser than 768px */
+@media (max-width: 768px) {
+    .main-title {
+        /* make the font smaller */
+        font-size: 2rem;
+        /* allow to wrap over */
+        white-space: normal;
+    }
+}

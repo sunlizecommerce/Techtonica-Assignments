@@ -11,7 +11,8 @@ if (recipeForm) {
         event.preventDefault();
          // Get the recipe name entered by the user
         const recipeName = document.querySelector("#recipe-name").value;
-        submittedRecipes.textContent = recipeName;
+        // Saves the record (for a bit lol)
+        submittedRecipes.textContent += recipeName + " | ";
         // Show a popup message
         alert("Recipe submitted successfully! 🎉");
 
