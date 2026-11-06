@@ -3,7 +3,7 @@ const title = document.querySelector(".main-title");
 console.log(title);
 
 // title.textContent = "Slap Yo' Bay-Beh Seafood Boil Recipe yeah";
-
+// Not sure why but this didn't work with declering title here
 // Find the Chinese button
 const button = document.querySelector("#chinese-btn");
 // Add English button

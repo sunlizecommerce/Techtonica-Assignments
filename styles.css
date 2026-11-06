@@ -107,3 +107,11 @@ li {
   margin-top: 3px; 
   
 }
+
+
+/* resource page 
+
+/* resource page, "other similar recipes to try" add more margin */
+.resources-title {
+    margin-bottom: 40px;
+}
