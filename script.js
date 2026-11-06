@@ -20,3 +20,13 @@ buttonEnglish.addEventListener("click", function(){
     title.textContent = "Slap Yo' Bay-Beh Seafood Boil Recipe";
 });
 
+
+ // Find all ingredients
+    const ingredients = document.querySelectorAll(".ingredients-box li");
+
+// Add click event to each ingredient!
+    ingredients.forEach(function(ingredient) {
+     ingredient.addEventListener("click", function() {
+            ingredient.classList.toggle("checked");
+     });
+    });

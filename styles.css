@@ -170,3 +170,12 @@ li {
     border-radius: 6px;
     cursor: pointer;
 }
+
+.ingredients-box li {
+    cursor: pointer;
+}
+
+.ingredients-box li.checked {
+    text-decoration: line-through;
+    color: gray;
+}
